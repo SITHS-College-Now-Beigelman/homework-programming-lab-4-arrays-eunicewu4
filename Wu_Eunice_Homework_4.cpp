@@ -9,7 +9,7 @@ using namespace std;
 
 void filterEvens (int a, int b, int c, int d, int e, int f, int g, int h) 
 {
-    int myArrayeven[8] = {a,b,c,d,e,f,g,h}
+    int myArrayeven[8] = {a,b,c,d,e,f,g,h};
     for (int i=0; i>=7; i++) 
     {
         if ( myArrayeven[i] % 2 == 0)
