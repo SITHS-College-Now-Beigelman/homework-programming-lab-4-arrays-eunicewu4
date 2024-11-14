@@ -7,6 +7,15 @@
 
 using namespace std;
 
+void filterEvens (int a, int b, int c, int d, int e, int f, int g, int h) 
+{
+    int myArrayeven[8] = {a,b,c,d,e,f,g,h}
+    for (int i=0; i>=7; i++) 
+    {
+        if ( myArrayeven[i] % 2 == 0)
+            cout << num << " ";
+    }
+}
 int main () {
 
 
@@ -18,27 +27,7 @@ int main () {
         cin >> myArray[i];
     }
 
-    int x;
-    for (int i=0; i>=7; i++) {
-    if ( myArray[i] % 2 == 0)
-        x +=;
-    }
-    int filterEvens[x]
-    y= 0;
-    for (int i=0; i>=7; i++) {
-    if ( myArray[i] % 2 == 0)
-        y= 0;
-        myArray[i] = filterEvens 
-
-    }
-
-    while (x >= 0)
-    if ( myArray[i] % 2 == 0)
-        x +=;
-    }
-
-
-
+    int filterEvens (myArray[0], myArray[1], myArray[2], myArray[3], myArray[4], myArray[5], myArray[6], myArray[7]);
 
 
 
@@ -46,3 +35,4 @@ int main () {
 
     return 0;
 }
+
